@@ -1,0 +1,111 @@
+# ========================
+# Dependencies
+# ========================
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ========================
+# Environment Variables
+# ========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ========================
+# Build & Distribution
+# ========================
+dist/
+build/
+.vite/
+*.tsbuildinfo
+
+# ========================
+# Database
+# ========================
+*.sql.backup
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker volumes (si no quieres versionar datos de DB)
+db_data/
+
+# ========================
+# IDE & Editors
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ========================
+# Testing
+# ========================
+coverage/
+.nyc_output/
+*.lcov
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ========================
+# Temporary Files
+# ========================
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+
+# ========================
+# React / Vite
+# ========================
+# Frontend build outputs are handled by dist/ above
+.eslintcache
+
+# ========================
+# Backend
+# ========================
+*.pem
+*.key
+!.gitkeep
+
+# ========================
+# Git
+# ========================
+*.orig
+*.rej
+*.patch
+
+# ========================
+# Miscellaneous
+# ========================
+.vercel
+.netlify
+.turbo
